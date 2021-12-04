@@ -114,3 +114,7 @@ https://calendar.yandex.ru
 
 5. Путешествия:
 https://travel.yandex.ru
+
+
+grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+https://practicum.yandex.ru/trainer/web-plus/lesson/5360d96f-62d2-4f8e-b3b6-b1c2d99b634f/task/bd81bff9-d5d1-4bf3-87f4-f8e815e48c6b/
