@@ -5,10 +5,14 @@
   line-height: 140%;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  height: 14px;
-  width: 160px;
-  margin-top: 8px;
+  width: max-content;
   color: #FFFFFF;
   padding: 7px 0 0 0;
   margin: 0;
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .lead__caption {
+    margin: 0 0 0 24px;
+  }
 }
