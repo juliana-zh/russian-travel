@@ -5,3 +5,10 @@
   left: 48px;
   top: 28px;
 }
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .header__logo {
+    left: 24px;
+    top: 28px;
+  }
+}
