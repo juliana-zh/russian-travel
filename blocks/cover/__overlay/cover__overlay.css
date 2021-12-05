@@ -8,3 +8,8 @@
   position: relative;
   z-index: 1;
 }
+
+.cover__overlay:hover {
+  opacity: 0.8;
+  transition: opacity 0.6s linear 0s;
+}
