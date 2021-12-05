@@ -2,9 +2,17 @@
   margin: 0 0 80px 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: minmax(400px, 460px) minmax(400px, 484px);
+  column-gap: 40px;
 }
 
 .place:last-of-type {
   margin: 0;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .place {
+    grid-template-columns: minmax(400px, 440px) minmax(400px, 456px);
+    column-gap: 32px;
+  }
 }

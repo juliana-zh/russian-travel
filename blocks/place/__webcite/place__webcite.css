@@ -1,6 +1,5 @@
 .place__webcite {
-  width: 456px;
-  height: 46px;
+  width: max-content;
   display: grid;
   grid-template-columns: 1fr;
   align-content: space-between;
