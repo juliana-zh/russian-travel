@@ -1,0 +1,8 @@
+.place__webcite {
+  width: 456px;
+  height: 46px;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: space-between;
+  align-self: flex-end;
+}

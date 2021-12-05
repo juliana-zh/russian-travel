@@ -1,0 +1,8 @@
+.cover__ref {
+  margin: 0 48px;
+  display: block;
+  position: relative;
+  z-index: 0;
+  display: grid;
+  text-decoration: none;
+}
