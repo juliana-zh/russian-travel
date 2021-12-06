@@ -1,5 +1,19 @@
 .cover {
   margin: 0 48px 92px 48px;
+  background-image: url(../../images/do_baik_na_sob.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: stretch;
+}
+
+.cover:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  padding-top: 62.6%;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {

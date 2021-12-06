@@ -1,3 +1,21 @@
 .footer__ref {
   text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 112%;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.footer__ref:hover {
+  opacity: 80%;
+  transition: opacity 0.6s linear 0s;
+}
+
+@media screen and (max-width: 719px) {
+  .footer__ref {
+    font-size: 24px;
+    line-height: 100%;
+  }
 }
