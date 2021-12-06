@@ -5,3 +5,9 @@
   align-content: space-between;
   align-self: flex-end;
 }
+
+@media screen and (max-width: 719px) {
+  .place__webcite {
+    margin: 32px 16px;
+  }
+}

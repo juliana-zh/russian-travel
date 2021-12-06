@@ -14,8 +14,14 @@
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 895px) {
+@media screen and (min-width: 720px) and (max-width: 895px) {
   .places {
     padding: 88px 24px 90px 24px;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .places {
+    padding: 64px 0 66px 0;
   }
 }

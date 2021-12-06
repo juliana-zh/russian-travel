@@ -2,8 +2,14 @@
   right: 95px;
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 720px) and (max-width: 768px) {
   .header__lang-link_lang_ru {
     right: 71px;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .header__lang-link_lang_ru {
+    right: 56px;
   }
 }

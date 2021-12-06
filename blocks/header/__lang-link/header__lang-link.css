@@ -1,12 +1,23 @@
 .header__lang-link {
-  position: absolute;
-  top: 46px;
   color: #FFFFFF;
   margin: 0;
   font-size: 24px;
-  line-height: 0.96;
+  font-style: normal;
+  font-weight: normal;
+  top: 46px;
+  line-height: 117%;
+  text-align: right;
+  position: absolute;
 }
 
 .header__lang-link:hover {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 719px) {
+  .header__lang-link {
+    top: 30px;
+    font-size: 18px;
+    line-height: 111%
+  }
 }

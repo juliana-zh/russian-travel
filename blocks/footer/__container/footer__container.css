@@ -3,3 +3,10 @@
   justify-content: space-between;
   grid-template-columns: repeat(2, max-content);
 }
+
+@media screen and (max-width: 719px) {
+  .footer__container {
+    grid-template-columns: 1fr;
+    justify-items: flex-start;
+  }
+}
